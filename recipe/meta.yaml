@@ -1,6 +1,6 @@
 {% set name = "hdf5storage" %}
-{% set version = "0.1.14" %}
-{% set sha256 = "180593f91325c952346010dde32b359563f69d2760b6e7d25a8d2d851b93b1ab" %}
+{% set version = "0.1.15" %}
+{% set sha256 = "79d23ad4ca89b8824b4ff98764ff9403a9830caa7497cae75e001d2dfbbf4e8e" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:

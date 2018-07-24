@@ -14,9 +14,8 @@ Summary: Utilities to read/write Python types to/from HDF5 files, including MATL
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/hdf5storage-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/hdf5storage-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/hdf5storage-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/hdf5storage-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/hdf5storage-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/hdf5storage-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/hdf5storage-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/hdf5storage-feedstock)
 
 Current release info
 ====================

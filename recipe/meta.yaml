@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://github.com/frejanordsiek/hdf5storage
-  license: BSD 2-Clause
+  license: BSD-2-Clause
   license_file: COPYING.txt
   summary: Utilities to read/write Python types to/from HDF5 files, including MATLAB v7.3 MAT files.
   doc_url: http://pythonhosted.org/hdf5storage

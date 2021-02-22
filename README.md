@@ -3,7 +3,7 @@ About hdf5storage
 
 Home: https://github.com/frejanordsiek/hdf5storage
 
-Package license: BSD 2-Clause
+Package license: BSD-2-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/hdf5storage-feedstock/blob/master/LICENSE.txt)
 

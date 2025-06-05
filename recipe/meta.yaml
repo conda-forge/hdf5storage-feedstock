@@ -8,7 +8,7 @@ package:
 
 source:
   git_url: https://github.com/frejanordsiek/hdf5storage.git
-  git_rev: fb539bca9e6c13a09913f90611de5ce6633b1997
+  git_rev: 7ee2a96de134b44beaa79c3a11c559f9ac87c5a6
 
 build:
   noarch: python

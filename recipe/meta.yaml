@@ -1,6 +1,6 @@
 {% set name = "hdf5storage" %}
 {% set version = "0.1.19.post1" %}
-{% set sha256 = "7a1a6badf546e8942f4d22d598aee14021796bc28918519c9687a6abb0eeef86" %}
+{% set sha256 = null %}
 
 package:
   name: {{ name|lower }}

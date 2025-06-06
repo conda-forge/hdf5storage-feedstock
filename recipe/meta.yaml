@@ -1,36 +1,40 @@
 {% set name = "hdf5storage" %}
-{% set version = "0.1.19" %}
-{% set sha256 = "7a1a6badf546e8942f4d22d598aee14021796bc28918519c9687a6abb0eeef86" %}
+{% set version = "0.1.19.post1" %}
+{% set sha256 = null %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.zip
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  git_url: https://github.com/frejanordsiek/hdf5storage.git
+  git_rev: 7ee2a96de134b44beaa79c3a11c559f9ac87c5a6
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python >=2.6
+    - python >=3.7,<3.13
     - setuptools
+    - numpy
+    - scipy
 
   run:
-    - python >=2.6
+    - python >=3.7,<3.13
     - h5py >=2.3
     - numpy
     - scipy
+    - setuptools
 
 test:
   imports:
     - hdf5storage
+  commands:
+    - python -c "import hdf5storage; print(hdf5storage.__version__)"
 
 about:
   home: https://github.com/frejanordsiek/hdf5storage

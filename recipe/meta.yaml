@@ -28,6 +28,7 @@ requirements:
     - h5py >=2.3
     - numpy
     - scipy
+    - setuptools
 
 test:
   imports:

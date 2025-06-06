@@ -24,7 +24,7 @@ requirements:
     - scipy
 
   run:
-    - python >=2.6
+    - python >=3.7,<3.13
     - h5py >=2.3
     - numpy
     - scipy

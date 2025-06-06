@@ -18,8 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=2.6
+    - python >=3.7,<3.13
     - setuptools
+    - numpy
+    - scipy
 
   run:
     - python >=2.6
@@ -30,6 +32,8 @@ requirements:
 test:
   imports:
     - hdf5storage
+  commands:
+    - python -c "import hdf5storage; print(hdf5storage.__version__)"
 
 about:
   home: https://github.com/frejanordsiek/hdf5storage
